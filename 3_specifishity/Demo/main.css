@@ -1,0 +1,15 @@
+*{
+	color: #aaa;
+}
+
+li{
+	color: green;
+}
+
+ul > li{
+	color: red;
+}
+
+body div.div-class ul li{
+	color: blue;
+}

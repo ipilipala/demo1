@@ -1,0 +1,57 @@
+/*類別選擇器- Class selectors*/
+/*顏色名稱*/
+.h1-title{
+	color: blue;
+}
+
+/*ID選擇器- ID selectors*/
+/*Color RGB*/
+#h2-title{
+	color: rgb(255,0,0);
+}
+
+/*標籤選擇器- Type selectors*/
+/*十六進位值色碼 Color HEX*/
+p{
+	color: #00ff00;
+}
+
+/*通用選擇器- Universal selector*/
+*{
+	font-style: italic;
+}
+
+/*屬性選擇器- Attribute selectors*/
+[type="checkbox"]:checked{
+  display: none;
+}
+
+/*群組選擇器- Groups of selectors*/
+h1,h2{
+	text-align: center;
+}
+
+/*後代選擇器- Descendant combinator*/
+.text-group p{
+	font-size: 50px;
+}
+
+/*子選擇器- Child combinator*/
+.text-group > p{
+	border: 1px solid #949393;
+}
+
+/*偽類選擇器- Pseudo-classes*/
+.text-group:hover{
+	background-color: #DBD9D9;
+}
+
+/*偽元素選擇器- Pseudo-elements*/
+[type="checkbox"]:checked + label:before{
+  content: '✔';
+  font-size: 14px;
+  color: green;
+}
+
+
+

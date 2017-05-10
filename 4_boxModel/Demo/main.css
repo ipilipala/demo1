@@ -1,0 +1,12 @@
+.cat-img{
+	/*指定寬高*/
+	width: 300px;
+	height: auto;
+	/*指定padding*/
+	padding:30px;
+	/*指定border*/
+	border:10px solid #aaa;
+	/*指定margin*/
+	margin:0 auto;
+	display: block;
+}
